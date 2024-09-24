@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --font: "Noto Sans", sans-serif;
+    --cor-1:#030102;
+    --cor-2:#0071ce;
+    --cor-3:#280d68;
+}
+
+body{
+    background-color: var(--cor-1);
+    color: var(--cor-2);
+    font-family:var(--font);
+}
+
+footer{
+    background-color: var(--cor-2);
+    color: var(--cor-3);
+    bottom:0;
+    width: 100%;
+}
+footer p{
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+}
