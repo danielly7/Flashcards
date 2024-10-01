@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --font: "Noto Sans", sans-serif;
+    --cor-1:#c94199;
+    --cor-2:#ac2996;
+    --cor-3:#cacaca;
+}
+
+body{
+background-color: var(--cor-1);
+    color: var(--cor-2);
+    font-family:var(--font);
+}
+
+#container{
+    display: flex;
+}
+.cartao{
+    margin: 1rem 1rem;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+.cartao__conteudo{
+    background-color: var(--cor-3);
+    text-align: center;
+    height: 100%;
+}
+.cartao__conteudo h3{
+    color: var(--cor-1);
+    border: 1px solid var(--cor-2);
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+}
+.cartao__conteudo p{
+    margin-top: 1rem;
+    padding: 2rem;
+}
+.cartao__conteudo__pergunta p{
+    color: var(--cor-1);
+    font-weight: 900 ;
+}
+.cartao__conteudo__resposta{
+    color: var(--cor-2);
+    font-weight: 700;
+}
+
+footer{
+    background-color: var(--cor-2);
+    color: var(--cor-2);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 0.5rem;
+}
